@@ -16,19 +16,53 @@ h2, h3 {
 
 .moveIn_container div {
     margin: 5px;
-    height: 350px;
-    width: 350px;
+    max-height: 350px;
+    max-width: 350px;
 }
 
 .moveOut_container div {
+    position: relative;
     margin: 5px;
-    height: 350px;
-    width: 350px;
+    max-height: 350px;
+    max-width: 350px;
 }
 
 img {
-    display: inline-block;
-    margin: o auto;
-    width: 100%;
-    height: auto;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.moveOut_notes {
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav > div {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav > div:hover {
+    background-color: black;
+}
+
+nav > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > div > a:hover {
+    color: white;
 }
