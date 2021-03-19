@@ -1,6 +1,7 @@
 body {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 5px;
 }
 
 .close {
@@ -138,5 +139,33 @@ p {
 @media only screen and (max-width: 400px) {
     nav > div {
         margin: 5px
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .embeded-email {
+        width: 800px;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .embeded-email {
+        width: 650px;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .embeded-email {
+        width: 500px;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .embeded-email {
+        width: 350px;
+        height: 600px;
     }
 }
