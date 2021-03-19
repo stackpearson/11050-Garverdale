@@ -66,3 +66,9 @@ nav > div > a {
 nav > div > a:hover {
     color: white;
 }
+
+@media only screen and (max-width: 400px) {
+    nav > div {
+        margin: 5px
+    }
+}
